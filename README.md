@@ -1,2 +1,1 @@
-# unalunamuna.github.io
-personal website
+Maria Serban's personal website
