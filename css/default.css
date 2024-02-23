@@ -199,7 +199,7 @@ code {
 @media only screen and (max-width: 430px) {
 
     html {width: 95%;}
-    
+
     body.body {
         margin-left: 0;
         margin-right: 0;
@@ -226,7 +226,7 @@ code {
     .logo {
         display: inline-block;
         font-size: 1.4rem;
-        border-right: solid 2px #3f3dc6;
+        border-right: solid 2px hsla(240.9,54.6%,50.8%,60%); /* #3f3dc6; */
         border-left: none;
         margin: 0rem;
         padding: 0rem;
