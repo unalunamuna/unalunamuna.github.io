@@ -202,6 +202,11 @@ code {
         flex-direction: column;
     }
 
+    body.body {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .content {
         order: 0;
         padding: 0;
