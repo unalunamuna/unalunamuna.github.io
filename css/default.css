@@ -204,6 +204,7 @@ code {
 
     .content {
         order: 0;
+        padding: 0;
     }
 
     .header {
