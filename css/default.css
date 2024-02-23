@@ -195,24 +195,18 @@ code {
 
 /* Collapsible paper abstracts */
 
-/* Hide the checkboxes */
-input[type="checkbox"] {
-  display: none;
-}
-
-/* Style the labels */
-.paper dt {
-  cursor: pointer;
-  font-weight: bold; /* Make the titles bold */
-}
-
 /* Hide the abstracts by default */
 .paper dd {
   display: none;
 }
 
-/* Show the abstracts when the checkbox is checked */
-dt > input[type="checkbox"]:checked + dd {
+/* Show the abstract when the title is clicked */
+.paper dt {
+  cursor: pointer;
+}
+
+/* Show the abstract when the title is clicked */
+.paper dt:active + dd {
   display: block;
 }
 
@@ -222,7 +216,7 @@ dt > input[type="checkbox"]:checked + dd {
 
 @media only screen and (max-width: 430px) {
 
-    html {width: 95%;}
+    html {width: 92%;}
 
     body.body {
         margin-left: 0;
