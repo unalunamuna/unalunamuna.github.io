@@ -193,33 +193,28 @@ code {
     font-size: 1.4rem;
 }
 
-/* Hide the checkboxes */
-input[type="checkbox"] {
-    display: none;
-}
-
 /* Collapsible paper abstracts */
 
-  /* Hide the checkboxes */
-  input[type="checkbox"] {
-    display: none;
-  }
+/* Hide the checkboxes */
+input[type="checkbox"] {
+  display: none;
+}
 
-  /* Style the labels */
-  .paper dt {
-    cursor: pointer;
-    font-weight: bold; /* Make the titles bold */
-  }
+/* Style the labels */
+.paper dt {
+  cursor: pointer;
+  font-weight: bold; /* Make the titles bold */
+}
 
-  /* Hide the abstracts by default */
-  .paper dd {
-    display: none;
-  }
+/* Hide the abstracts by default */
+.paper dd {
+  display: none;
+}
 
-  /* Show the abstracts when the checkbox is checked */
-  input[type="checkbox"]:checked + dd {
-    display: block;
-  }
+/* Show the abstracts when the checkbox is checked */
+input[type="checkbox"]:checked + dd {
+  display: block;
+}
 
 
 /* Hide stuff on small screens */
