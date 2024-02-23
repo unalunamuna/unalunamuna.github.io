@@ -198,7 +198,7 @@ code {
 
 @media only screen and (max-width: 430px) {
 
-    html {width: 90%;}
+    html {width: 100%;}
 
     .container {
         flex-direction: column;
