@@ -198,7 +198,7 @@ code {
 
 @media only screen and (max-width: 430px) {
 
-    body, p {
+    body.body, p {
         margin: 0; /* Reset margin */
         padding: 0; /* Reset padding */
     }
