@@ -198,7 +198,12 @@ code {
 
 @media only screen and (max-width: 430px) {
 
-    html {width: 100%;}
+    html {width: 95%;}
+    
+    body.body {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
     .container {
         flex-direction: column;
