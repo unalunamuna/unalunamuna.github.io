@@ -212,8 +212,7 @@ input[type="checkbox"] {
 }
 
 /* Show the abstracts when the checkbox is checked */
-
-input[type="checkbox"]:checked + dt + dd {
+dt > input[type="checkbox"]:checked + dd {
   display: block;
 }
 
