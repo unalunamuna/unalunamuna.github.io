@@ -222,7 +222,7 @@ dt > input[type="checkbox"]:checked + dd {
 
 @media only screen and (max-width: 430px) {
 
-    html {width: 92%;}
+    html {width: 95%;}
 
     body.body {
         margin-left: 0;
