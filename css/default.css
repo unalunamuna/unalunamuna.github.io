@@ -41,16 +41,16 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 1.8rem;
+    font-size: 2.0rem;
 }
 
 h2 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 dt {
-    padding-top: 1.4rem;
-    padding-bottom: 1.1rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.3rem;
     font-weight: bold;
 }
 
@@ -65,11 +65,11 @@ dt {
 
 .content {
     color: #111111;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 1.375;
     text-rendering: optimizeLegibility;
     flex: 4 1 auto;
-    padding: 1rem;
+    padding: 1.2rem;
     margin-top: 6.0rem;
 }
 
