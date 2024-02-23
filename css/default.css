@@ -253,11 +253,6 @@ code {
         padding-left: 2rem; /* padding for the virst nav item */
     }
 
-    body.body, p {
-        margin: 0; /* Reset margin */
-        padding: 0; /* Reset padding */
-    }
-
 }
 
 
