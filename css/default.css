@@ -249,6 +249,10 @@ code {
         margin: 0rem 0rem 0rem 0.2rem;
     }
 
+    .navigation a:first-child {
+        padding-left: 2rem; /* padding for the virst nav item */
+    }
+
 }
 
 
