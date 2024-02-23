@@ -193,23 +193,6 @@ code {
     font-size: 1.4rem;
 }
 
-/* Collapsible paper abstracts */
-
-/* Hide the abstracts by default */
-.paper dd {
-  display: none;
-}
-
-/* Show the abstract when the title is clicked */
-.paper dt {
-  cursor: pointer;
-}
-
-/* Show the abstract when the title is clicked */
-.paper dt:active + dd {
-  display: block;
-}
-
 
 /* Hide stuff on small screens */
 
